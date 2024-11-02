@@ -1,0 +1,158 @@
+body {
+    background-color: rgb(207, 238, 240);
+    font-family: Manrope;
+    padding: 100px;
+  
+}
+
+.flex-container {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;    
+    border-radius: 10px;
+}
+.box {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;      
+}
+
+.img-drawers {
+    border-radius: 10px;
+}
+
+h5 {
+    font-size: 1.5em;
+}
+
+.box-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-top: 20px;
+    height: 83px;   
+}
+.inner-box-2 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+.inner-box-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.img-michelle {
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+span {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+    opacity: 0.7;
+    z-index: 9;
+}
+.share-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;  
+
+}
+
+.btn {
+    border: none;
+    border-radius: 50%;
+    background-color: rgb(207, 238, 240);
+    margin-right: 65px;
+    padding: 10px;
+}
+.btn:hover {
+    background-color: rgb(134, 232, 239);
+}
+
+.icons {
+    margin: 10px;
+}
+
+@media only screen and (max-width: 375px) {
+    body {
+        padding: 0px;
+    }
+    .img-drawers {
+        height: 200px;
+    }
+    h5{
+        margin: 5px;
+    }
+    p {
+        margin: 5px;
+    }
+    .flex-container {
+        background-color: white;
+        display: flex;
+        flex-direction: column;    
+    } 
+    .img-drawers {
+        max-width: 100%;
+        
+    }
+    .box {
+        padding: 0px;      
+    }
+    .inner-box-2 {
+        display: none;
+    }
+    .inner-box-3 {
+        background-color: black;
+        opacity: 0.7;
+        border-radius: 5px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .pop-up {
+        width: 100%;
+    }
+  
+    span {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .share-btn {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        
+    }
+    .btn {
+        border: none;
+        border-radius: 100px;
+        background-color: black;
+        opacity: 0.7;
+        margin: 0px;
+    }
+    .btn:hover {
+        background-color: rgb(56, 51, 51);
+    }
+    .img-btn {
+       
+        opacity: 0.7;
+        width: 30px;
+        border-radius: 100px;
+    }
+    
+  }
